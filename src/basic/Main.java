@@ -20,8 +20,12 @@ public static double power(double x, int exp) {
 	return (number);
 }
 public static int GCD(int n, int m) {
-	int max = 0;
-	if ()
+	while(m!=0) {
+		int k = n%m;
+		n=m;
+		m=k;
+	}
+	return n;
 }
 public static boolean isPrime (int value) {
 	for 
