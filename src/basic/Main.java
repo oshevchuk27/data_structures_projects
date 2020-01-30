@@ -18,6 +18,7 @@ public class Main {
 		System.out.println("0 to the power of 10 is " + power(0, 10));
 		System.out.println("-1 to the power of 14 is " + power(-1, 14));
 		System.out.println("-2 to the power of 3 is " + power(-2, 3));
+		System.out.println("10 to the power of 0 is " + power(10, 0));
 		System.out.println("The greatest common denominator of 9 and 72 is " + GCD(9, 72));
 		System.out.println("The greatest common denominator of 1 and 1 is " + GCD(1, 1));
 		System.out.println("The greatest common denominator of 357 and 221 is " + GCD(357, 221));
